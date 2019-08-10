@@ -5,6 +5,11 @@
   "repository": "https://mshrtsr@github.com/mshrtsr/ts-node-template.git",
   "author": "Masaharu TASHIRO <masatsr.kit@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "TS_NODE_FILES=true ts-node -r tsconfig-paths/register src/index.ts",
+    "dev": "TS_NODE_FILES=true ts-node-dev -r tsconfig-paths/register src/index.ts",
+    "tslint": "tslint --project ./  --fix"
+  },
   "dependencies": {
     "ts-node": "^8.3.0",
     "tsconfig-paths": "^3.8.0",
