@@ -14,7 +14,8 @@
     "lint:prettier": "prettier 'src/**/*.ts' --check",
     "fix": "run-s fix:eslint fix:prettier",
     "fix:eslint": "yarn lint:eslint --fix",
-    "fix:prettier": "yarn lint:prettier --write"
+    "fix:prettier": "yarn lint:prettier --write",
+    "test": "echo 'no test'"
   },
   "dependencies": {
     "ts-node": "^10.8.1",
